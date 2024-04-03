@@ -35,16 +35,16 @@ if (edad === null) {
         edad = prompt("Ingrese su edad con números:");
     }
 
-    // Convirtiendo la edad a número entero.
+// Convirtiendo la edad a número entero.
     edad = parseInt(edad);
 
-    // Verificando si es mayor de edad para poder ingresar al sitio.
+// Verificando si es mayor de edad para poder ingresar al sitio.
     if (edad < 18) {
         alert("Lo siento, el acceso está restringido a mayores de 18 años.");
     } else {
         alert("Bienvenido, a continuación verá el catálogo de nuestros productos.");
         
-        // Catalogo de Stallion Energy:
+// Catalogo de Stallion Energy:
         let opcion;
 
         do {
@@ -80,3 +80,46 @@ if (edad === null) {
 
     console.log(opcion);
 }
+
+
+// Productos con sus respectivos precios
+
+const productosEnergizantes = [
+    {
+      nombre: "Monster Energy",
+      precio: 2000,
+      sabores: [
+        { nombre: "Monster Energy Original", precio: 2000 },
+        { nombre: "Monster Energy Mango Loco", precio: 2200 },
+        { nombre: "Monster Energy Zero Sugar", precio: 2300 }
+      ]
+    },
+    {
+      nombre: "Speed Energy",
+      precio: 1100,
+      sabores: [
+        { nombre: "Speed Energy Original", precio: 1100 },
+        { nombre: "Speed Energy Octane", precio: 1200 },
+        { nombre: "Speed Energy Black Tea Lemonade", precio: 1500 }    
+      ]
+    },
+    {
+      nombre: "Red Bull Energy",
+      precio: 1800,
+      sabores: [
+        { nombre: "Red Bull Energy Original", precio: 1800 },
+        { nombre: "Red Bull Energy Sugar Free", precio: 1900 },
+        { nombre: "Red Bull Energy Tropical", precio: 2000 }
+      ]
+    },
+    {
+      nombre: "Prime",
+      precio: 7000,
+      sabores: [
+        { nombre: "Prime Original", precio: 7000 },
+        { nombre: "Prime Lemon Line", precio: 7500 },
+        { nombre: "Prime Strawberry Watermelon", precio: 7700 }
+      ]
+    }
+  ];
+  
