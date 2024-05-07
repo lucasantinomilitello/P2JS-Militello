@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+h2 {
+    font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
+  }
+
+/* Parte de la Nav*/
+#menu a {
+    font-size: 15px;
+    font-weight: lighter;
+  }
+  
+  /* Nav*/
+  .navbar {
+    padding: 30px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar img {
+    width: 100px;
+  }
+  
+  .navbar .navbar-nav {
+    gap: 40px;
+  }
+
+  
+
+ /* Seccion breve introductoria index*/
+ 
+ .titulo {
+    background-color: yellow;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+
+/* Sección Seguinos*/
+.follow-us {
+    text-align: center;
+    padding: 30px;
+  }
+  .follow-us .subrayado {
+    text-decoration: underline;
+    font-family: "Roboto", sans-serif;
+    color: yellow;
+    text-shadow: 
+      -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black,
+      -2px 0 0 black, 2px 0 0 black, 0 -2px 0 black, 0 2px 0 black;
+  }
+
+/* Seccion de tienda*/
+
+.product-description {
+  height: 100px;
+  overflow: hidden;
+}
+
+
+.card-img-top {
+  height: auto;
+  max-height: 200px; 
+  object-fit: contain;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center; 
+  height: 100%;
+}
+
+
+.card-title {
+  color: yellow !important; 
+  -webkit-text-stroke-width: 1px; 
+  -webkit-text-stroke-color: black;
+}
+
+.card-body {
+  padding-bottom: 20px;
+}
+
+.btn-add-to-cart {
+  background-color: yellow !important; 
+  color: black !important; 
+  margin-top: 10px;
+  font-weight: bold; 
+}
+
+
+ /* Seccion de contactos*/  
+
+ .contacto-titulo {
+    background-color: yellow;
+    border: 2px solid black; 
+    padding: 10px;
+}
+
+ .boton-contacto {
+    color: black !important;
+    background-color: yellow !important;
+    border-color: black !important;
+    font-weight: 700;
+}
+ 
+ /* Seccion redes sociales*/ 
+
+  .follow-us .social-links {
+    list-style: none;
+    padding: 0;
+  }
+  .follow-us .social-links li {
+    display: inline;
+    margin: 0 10px;
+  }
+  .follow-us .social-links img {
+    width: 40px;
+    height: 50px;
+  }
+  
+
+/* Footer */
+footer {
+    background-color: rgba(216, 203, 22, 0.295);
+    color: black;
+    text-align: center;
+    padding: 10px;
+  }
+  footer p {
+    margin: 0;
+  }
