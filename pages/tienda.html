@@ -52,69 +52,79 @@
 
 <!-- INCIO DE TIENDA -->
 
-<div class="container mt-5">
-  <div class="row">
-      <div class="col-md-4 mb-4">
+<section>
+    <div class="container mt-5">
+      <div class="row" id="product-list">
+        <div class="col-md-4 mb-4">
           <div class="card">
-              <img src="../img/3.png" class="card-img-top" alt="Prime Energy">
-              <div class="card-body">
-                  <h5 class="card-title fs-3">Prime Energy</h5>
-                  <ul class="list-group">
-                      <li class="list-group-item">$7000 - Prime Original</li>
-                      <li class="list-group-item">7500 - Prime Lemon Line</li>
-                      <li class="list-group-item">$7500 - Prime Strawberry Watermelon</li>
-                  </ul>
-                  <a href="#" class="btn btn-primary btn-block btn-add-to-cart">Añadir al carrito</a>
-              </div>
+            <img src="../img/3.png" class="card-img-top" alt="Prime Energy">
+            <div class="card-body">
+              <h5 class="card-title fs-3">Prime Energy</h5>
+              <ul class="list-group">
+                <li class="list-group-item" data-price="7000"> $7000 - Prime Original</li>
+                <li class="list-group-item" data-price="7500">$7500 - Prime Lemon Line</li>
+                <li class="list-group-item" data-price="7500">$7500 - Prime Strawberry Watermelon</li>
+              </ul>
+              <button class="btn btn-primary btn-block btn-add-to-cart">Añadir al carrito</button>
+            </div>
           </div>
-      </div>
-      <div class="col-md-4 mb-4">
+        </div>
+        <div class="col-md-4 mb-4">
           <div class="card">
-              <img src="../img/4.png" class="card-img-top" alt="Speed">
-              <div class="card-body">
-                  <h5 class="card-title fs-3">Speed</h5>
-                  <ul class="list-group">
-                      <li class="list-group-item">$1100 - Speed Original</li>
-                      <li class="list-group-item">$1500 - Speed Energy Octane</li>
-                      <li class="list-group-item">$1600 - Speed Energy Black Tea Lemonade</li>
-                  </ul>
-                  <a href="#" class="btn btn-primary btn-block btn-add-to-cart">Añadir al carrito</a>
-              </div>
+            <img src="../img/4.png" class="card-img-top" alt="Speed">
+            <div class="card-body">
+              <h5 class="card-title fs-3">Speed</h5>
+              <ul class="list-group">
+                <li class="list-group-item" data-price="1100">$1100 - Speed Original</li>
+                <li class="list-group-item" data-price="1500">$1500 - Speed Energy Octane</li>
+                <li class="list-group-item" data-price="1600">$1600 - Speed Energy Black Tea Lemonade</li>
+              </ul>
+              <button class="btn btn-primary btn-block btn-add-to-cart">Añadir al carrito</button>
+            </div>
           </div>
-      </div>
-      <div class="col-md-4 mb-4">
+        </div>
+        <div class="col-md-4 mb-4">
           <div class="card">
-              <img src="../img/1.png" class="card-img-top" alt="Monster">
-              <div class="card-body">
-                  <h5 class="card-title fs-3">Monster</h5>
-                  <ul class="list-group">
-                      <li class="list-group-item">$2000 - Monster Original</li>
-                      <li class="list-group-item"> $2200 - Monster Mango Loco</li>
-                      <li class="list-group-item">$2300 - Monster Zero Sugar</li>
-                  </ul>
-                  <a href="#" class="btn btn-primary btn-block btn-add-to-cart">Añadir al carrito</a>
-              </div>
+            <img src="../img/1.png" class="card-img-top" alt="Monster">
+            <div class="card-body">
+              <h5 class="card-title fs-3">Monster</h5>
+              <ul class="list-group">
+                <li class="list-group-item" data-price="2000">$2000 - Monster Original</li>
+                <li class="list-group-item" data-price="2200">$2200 - Monster Mango Loco</li>
+                <li class="list-group-item" data-price="2300">$2300 - Monster Zero Sugar</li>
+              </ul>
+              <button class="btn btn-primary btn-block btn-add-to-cart">Añadir al carrito</button>
+            </div>
           </div>
-      </div>
-      <div class="col-md-4 mb-4">
+        </div>
+        <div class="col-md-4 mb-4">
           <div class="card">
-              <img src="../img/2.png" class="card-img-top" alt="Red Bull">
-              <div class="card-body">
-                  <h5 class="card-title fs-3">Red Bull</h5>
-                  <ul class="list-group">
-                      <li class="list-group-item">$1800 - Red Bull Original</li>
-                      <li class="list-group-item">$2000 - Red Bull Sugar Free</li>
-                      <li class="list-group-item">$2000 - Red Bull Tropical</li>
-                  </ul>
-                  <a href="#" class="btn btn-primary btn-block btn-add-to-cart">Añadir al carrito</a>
+            <img src="../img/2.png" class="card-img-top" alt="Red Bull">
+            <div class="card-body">
+              <h5 class="card-title fs-3">Red Bull</h5>
+              <ul class="list-group">
+                <li class="list-group-item" data-price="1800">$1800 - Red Bull Original</li>
+                <li class="list-group-item" data-price="2000">$2000 - Red Bull Sugar Free</li>
+                <li class="list-group-item" data-price="2000">$2000 - Red Bull Tropical</li>
+              </ul>
+              <button class="btn btn-primary btn-block btn-add-to-cart">Añadir al carrito</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- FIN DE TIENDA -->
 
-              </div>
-          </div>
-      </div>
+<!-- CARRITO -->  
+  <div id="cart" class="mt-5">
+    <div class="container">
+      <h2>Carrito de compras</h2>
+      <ul id="cart-items"></ul>
+      <p>Total: $<span id="cart-total">0</span></p>
+      <button id="clear-cart" class="btn btn-danger">Vaciar carrito</button>
+    </div>
   </div>
-</div>
-
-<!-- FIN DE TIENDA -->
 
 
 <!-- SECCION REDES SOCIALES -->

@@ -96,6 +96,11 @@ h2 {
   font-weight: bold; 
 }
 
+.list-group-item.active {
+  background-color: yellow;
+  color: #fff;
+}
+
 
  /* Seccion de contactos*/  
 
